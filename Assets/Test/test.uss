@@ -1,0 +1,37 @@
+.header {
+    -unity-background-image-tint-color: rgba(173, 140, 58, 255);
+    color: rgba(87, 0, 0, 255);
+    background-color: rgba(241, 208, 89, 255);
+    font-size: 24px;
+    -unity-font-style: bold;
+    -unity-text-align: upper-center;
+}
+
+.toggle {
+}
+
+.toggle:checked {
+    opacity: 0.5;
+}
+
+.container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: flex-start;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.parent {
+    flex-grow: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

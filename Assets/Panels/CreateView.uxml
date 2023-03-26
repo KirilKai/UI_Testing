@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/MainMenu.uss?fileID=7433441132597879392&amp;guid=7ec133f6d7ca3c1428d2604081dd58eb&amp;type=3#MainMenu" />
+    <ui:VisualElement name="CreateView" style="flex-grow: 1; background-color: rgb(51, 5, 5);">
+        <ui:Label text="Create" display-tooltip-when-elided="true" style="-unity-text-align: upper-center; font-size: 60px; color: rgb(255, 255, 255);" />
+        <ui:Button text="Back" display-tooltip-when-elided="true" name="BackButton" class="buttons" />
+    </ui:VisualElement>
+</ui:UXML>

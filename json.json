@@ -1,0 +1,47 @@
+[
+  {
+    "StudentName": "StudentFirst1",
+    "StudentLastName": "StudentLast1",
+    "Address": [
+      {
+        "Street": "Street1",
+        "City": "Haifa"
+      },
+      {
+        "Street": "Street2",
+        "City": "Tel-Aviv"
+      }
+    ],
+    "Courses": ["MongoDB", "FullStack", "Java"]
+  },
+  {
+    "StudentName": "StudentFirst2",
+    "StudentLastName": "StudentLast2",
+    "Address": [
+      {
+        "Street": "Street1",
+        "City": "Haifa"
+      },
+      {
+        "Street": "Street2",
+        "City": "Tel-Aviv"
+      }
+    ],
+    "Courses": ["MongoDB", "FullStack", "Java"]
+  },
+  {
+    "StudentName": "StudentFirst3",
+    "StudentLastName": "StudentLast3",
+    "Address": [
+      {
+        "Street": "Street1",
+        "City": "Haifa"
+      },
+      {
+        "Street": "Street2",
+        "City": "Tel-Aviv"
+      }
+    ],
+    "Courses": ["MongoDB", "FullStack", "Java"]
+  }
+]
