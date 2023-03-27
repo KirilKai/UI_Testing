@@ -10,16 +10,17 @@ public class MainMenuPresenter
     private Button startButton;
     private Button settingsButton;
     private Button quitButton; 
+    // Public properties to set the click actions for the buttons
     public Action OpenSettings { set => settingsButton.clicked += value; }
     public Action OpenCreateView { set => startButton.clicked += value; }
 
   public MainMenuPresenter(VisualElement root)
-    {
-       startButton = root.Q<Button>("Start");
-       settingsButton = root.Q<Button>("Settings");
-       quitButton = root.Q<Button>("Quit");
+    { // Constructor that takes a root VisualElement as a parameter 
+      startButton = root.Q<Button>("Start");
+      settingsButton = root.Q<Button>("Settings");
+      quitButton = root.Q<Button>("Quit");
        
-       AddLogsToButtons();
+      AddLogsToButtons();
     }
     private void AddLogsToButtons()
     {
