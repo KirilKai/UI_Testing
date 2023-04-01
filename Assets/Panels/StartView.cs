@@ -27,7 +27,7 @@ public class StartView : MonoBehaviour
         private void SetupStartMenu()
         {
             // Create a new MainMenuPresenter instance and pass in the StartView element
-            MainMenuPresenter mainMenuPresenter = new MainMenuPresenter(_StartView);
+            MainMenuPresenter mainMenuPresenter = new MainMenuPresenter(_StartView, this); // **********SUS********
 
             // Set up the actions to toggle the (create, settings) views on
             mainMenuPresenter.OpenSettings = () => ToggleSettingsMenu(true);

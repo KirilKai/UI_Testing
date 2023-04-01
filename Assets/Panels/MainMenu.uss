@@ -5,8 +5,8 @@
     margin-bottom: 5px;
     -unity-font-style: bold;
     font-size: 30px;
-    background-color: rgba(48, 23, 28, 255);
-    color: rgba(255, 255, 255, 255);
+    background-color: rgb(173, 116, 25);
+    color: rgb(255, 255, 255);
     border-top-left-radius: 26px;
     border-bottom-left-radius: 26px;
     border-top-right-radius: 26px;
@@ -24,7 +24,7 @@
     margin-bottom: 5px;
     -unity-font-style: bold;
     font-size: 30px;
-    background-color: rgb(118, 24, 43);
+    background-color: rgb(144, 91, 5);
     color: rgb(255, 255, 255);
     border-top-left-radius: 26px;
     border-bottom-left-radius: 26px;

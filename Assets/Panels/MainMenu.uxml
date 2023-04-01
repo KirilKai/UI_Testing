@@ -2,8 +2,9 @@
     <Style src="project://database/Assets/Panels/MainMenu.uss?fileID=7433441132597879392&amp;guid=e21736dd45c4c4c45b372598c955bc9e&amp;type=3#MainMenu" />
     <ui:VisualElement name="Background" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Panels/background.png?fileID=2800000&amp;guid=f6876920b3d21a94a80f7bfa21b892e5&amp;type=3#background&apos;); -unity-background-image-tint-color: rgb(241, 224, 221); -unity-background-scale-mode: scale-and-crop; background-color: rgb(36, 0, 0); flex-direction: row; align-items: stretch; justify-content: center;">
         <ui:VisualElement name="SideBar" style="width: 30%; -unity-background-image-tint-color: rgba(14, 8, 8, 0.29); background-color: rgba(0, 0, 0, 0.79); justify-content: center; align-items: stretch;">
-            <ui:Label text="Menu" display-tooltip-when-elided="true" name="Header" style="-unity-font-style: bold; color: rgb(255, 255, 255); font-size: 60px; -unity-text-align: upper-center;" />
+            <ui:Label text="Menu" display-tooltip-when-elided="true" name="Header" style="-unity-font-style: bold; color: rgb(255, 255, 255); font-size: 60px; -unity-text-align: upper-center; align-items: stretch; justify-content: flex-start; flex-direction: column; flex-wrap: nowrap; display: flex;" />
             <ui:Button text="Start" display-tooltip-when-elided="true" name="Start" class="buttons" />
+            <ui:Button text="Load" display-tooltip-when-elided="true" name="Load" class="buttons" />
             <ui:Button text="Settings" display-tooltip-when-elided="true" name="Settings" class="buttons" />
             <ui:Button text="Quit" display-tooltip-when-elided="true" name="Quit" class="buttons" />
         </ui:VisualElement>
